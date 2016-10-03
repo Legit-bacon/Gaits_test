@@ -12,14 +12,15 @@ PVector leg1 = new PVector(250, 750, 0);
 PVector leg2 = new PVector(750, 250, 0);
 PVector leg3 = new PVector(750, 750, 0);
 
-PVector legOffset0 = new PVector(125, 500, 0);
-PVector legOffset1 = new PVector(125, 1000, 0);
-PVector legOffset2 = new PVector(375, 500, 0);
-PVector legOffset3 = new PVector(375, 1000, 0);
+PVector legOffset0 = new PVector(112.5, 112.5, 0);
+PVector legOffset1 = new PVector(112.5, 450, 0);
+PVector legOffset2 = new PVector(337.5, 112.5, 0);
+PVector legOffset3 = new PVector(337.5, 450, 0);
 
 
 void setup(){
-size(500, 1000);
+size(450, 450);
+frameRate(60);
 smooth();
 
 }
